@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 44px;
+    margin-left: 76px;
+    margin-bottom: 130px;
+}
+.nav{
+    margin-right: 23px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #989D9C;
+    
+}
+
+.button-header{
+    margin-left: 23px;
+    width: 130px;
+    height: 41px;
+    width: 130px;
+    border-radius: 20.5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+.img-logo{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    position: relative; bottom: 115px;
+}
+.div-secundaria{
+    display: inline-block;
+    margin-left: 86px;
+    position: relative; 
+    bottom: 94px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+    margin-top: 121px;
+
+}
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    margin-bottom: 32px;
+    color: #515151;
+
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #515151;
+    margin-bottom: 65px;
+    width: 515px;
+}
+.button-div{
+    background-color: #ADFF00;
+    border-radius: 29.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom:243px ;
+
+
+}
+@media screen and (max-width:889px) {
+    header{
+        display: none;
+    }
+    .div-principal{
+        text-align: center;
+    }
+    .img-logo{
+        margin-top: 149px;
+    }
+    h1{
+        margin-top: 24px;
+    }
+    h2{
+        margin-top: 7px;
+    }
+    p{
+        display: none;
+    }
+}
+@media screen and (max-width:658px){
+    .img-logo{
+        text-align: center;
+        position: relative;
+        right: 87px;
+    }
+    .div-secundaria {
+        position: relative;
+        right: 57px;
+    }
+}
+@media screen and (max-width:650px){
+    .div-secundaria{
+        position: relative;
+        left: 65px;
+    }
+}
